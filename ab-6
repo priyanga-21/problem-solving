@@ -1,0 +1,5 @@
+N = int(input())
+factorial = 1
+for i in range(1,1+N):
+ factorial = factorial*i
+print(factorial)
